@@ -50,7 +50,7 @@ jobs:
       - run:
           name: Deploy compojure-app to Google App Engine
           command: |
-            gcloud config set project fyves
+            gcloud config set project fyves-5
             gcloud app deploy
 
       - run:
